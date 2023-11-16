@@ -6,5 +6,5 @@ Future<void> hello() {
 
 void main() {
   hello();
-  print("Don gak bang?");
+  print("Done gak bang?");
 }
