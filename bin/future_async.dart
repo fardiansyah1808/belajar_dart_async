@@ -1,5 +1,5 @@
 Future<void> hello() {
-  return Future.delayed(Duration(seconds: 3), () {
+  return Future.delayed(Duration(seconds: 2), () {
     print("Done!");
   });
 }
