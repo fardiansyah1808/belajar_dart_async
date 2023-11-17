@@ -1,4 +1,3 @@
-import 'package:mockito/annotations.dart';
 
 Future<String> name() {
   return Future.value("Fardi Ansyah");
