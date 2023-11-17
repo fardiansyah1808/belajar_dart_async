@@ -12,13 +12,15 @@ Stream<String> stream() {
 
 void main() {
   Stream<String> flow = stream();
-  StreamSubscription<String> listen = flow.listen((event) {
+  // StreamSubscription<String> listen = flow.listen((event) {
+  //   print(event);
+  // });
+  flow.listen((event) {
     print(event);
   });
   //error jika 2 listen stream
   // StreamSubscription<String> listen2 = flow.listen((event) {
   //   print(event);
   // });
-
   print("Done ya guys!");
 }
